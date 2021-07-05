@@ -125,13 +125,13 @@
 							{
 								"key": "Authorization",
 								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZnJhbmZlciIsImFkbWluIjp0cnVlLCJpYXQiOjE2MjE0NTQ5MDF9.p1J3IEZoCMBontIW5OdSILciFMcc3jD2UkxH3_nPD1M",
-								"description": "admin franfer",
+								"description": "admin juanperez",
 								"type": "text"
 							},
 							{
 								"key": "Authorization",
 								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibW9tYXpvIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE2MjE0NDkzNDl9.tJZqvlE3yx8mDl1l3tMxD-OB15xYxvD0-Sz9mTcSeWk",
-								"description": "not admin momazo",
+								"description": "not admin luismar",
 								"type": "text",
 								"disabled": true
 							}
@@ -177,13 +177,13 @@
 							{
 								"key": "Authorization",
 								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZnJhbmZlciIsImFkbWluIjp0cnVlLCJpYXQiOjE2MjE0NTQ5MDF9.p1J3IEZoCMBontIW5OdSILciFMcc3jD2UkxH3_nPD1M",
-								"description": "admin franfer",
+								"description": "admin juanperez",
 								"type": "text"
 							},
 							{
 								"key": "Authorization",
 								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibW9tYXpvIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE2MjE0NDkzNDl9.tJZqvlE3yx8mDl1l3tMxD-OB15xYxvD0-Sz9mTcSeWk",
-								"description": "not admin momazo",
+								"description": "not admin luismar",
 								"type": "text",
 								"disabled": true
 							}
