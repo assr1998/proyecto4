@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Warehouse</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <section>
+        <header class="header">
+            <div class="logocontainer">
+                <img src="./styles/assets/logoheader.png" alt="logo data warehouse">
+                <h1>DATA WAREHOUSE</h1>
+            </div>
+            <div class="loggedusercontainer"></div>
+        </header>
+        <div class="loggeduseroptions hidden">
+            <p>Salir</p>
+        </div>
+    </section>
+
+
+    <div class="loginscreen">
+        <div class="logincontainer">
+            <img src="./styles/assets/loginlogo.png" alt="logo data warehouse">
+            <input type="text" name="email" class="emailInput" placeholder="Email">
+            <input type="password" name="password" class="passInput" placeholder="Password">
+            <button type="submit" class="loginBtn">Login</button>
+        </div>
+    </div>
+
+
+    <aside class="aside">
+        <div class="mainAside">
+            <div class="asideBtn contactsBtn">
+                <img src="./styles/assets/contacts.png" alt="contacts logo">
+            </div>
+            <div class="asideBtn companyBtn">
+                <img src="./styles/assets/company.png" alt="companies logo">
+            </div>
+            <div class="asideBtn regionBtn">
+                <img src="./styles/assets/region.png" alt="region logo">
+            </div>
+            <div class="asideBtn usersBtn hidden">
+                <img src="./styles/assets/users.png" alt="users logo">
+            </div>
+        </div>
+        <div class="labeldiv hidden">
+            <div class="contactsLabel label hidden">
+                <h2>CONTACTOS</h2>
+            </div>
+            <div class="companyLabel label hidden">
+                <h2>COMPAÑÍAS</h2>
+            </div>
+            <div class="regionLabel label hidden">
+                <h2>REGIÓN</h2>
+            </div>
+            <div class="usersLabel label hidden">
+                <h2>USUARIOS</h2>
+            </div>
+        </div>
+    </aside>
+    <main class="main">
+        <section class="contactsSection hidden">
+            <div class="contactsBar">
+                <div class="searchdiv">
+                    <div class="searchBar"></div>
+                    <div class="searchOptions ">
+                        <img src="./styles/assets/search_options.png" alt="opciones de búsqueda">
+                    </div>
+                    <div class="contactsBar-btns search hidden">
+                        <img src="./styles/assets/magnifier_hover.png" alt="buscar">
+                    </div>
+                </div>
+                <div class="contactsBar-btns-div">
+                    <div class="contactsBar-btns new">
+                        <p>+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="searchDetail hidden">
+                <div class="searchByName">
+                    <label for="contactName">Nombre</label>
+                    <input type="text" name="contactName" class= "searchInput" placeholder="Nombre del contacto">
+                </div>
+                <div class="searchByCompany">
+                    <label for="contactCompany">Compañía</label>
+                    <input type="text" name="contactCompany" class= "searchInput"  placeholder="Compañía del contacto">
+                </div>
+                <div class="searchByRole">
+                    <label for="contactRole">Cargo</label>
+                    <input type="text" name="contactRole" class= "searchInput"  placeholder="Cargo del contacto">
+                </div>
+                <div class="searchByRegion">
+                    <label for="contactRegion">Región</label>
+                    <select name="contactRegion"  class= "searchInput" id="contactRegion">
+                        <option value="" disabled selected>Región del contacto</option>
+                    </select>
+                </div>
+                <div class="searchByCountry">
+                    <label for="contactCountry">País</label>
+                    <select name="contactCountry" class= "searchInput"  id="contactCountry">
+                        <option value="" disabled selected>País del contacto</option>
+                    </select>
+                </div>
+                <div class="searchByInterest">
+                    <label for="contactInterest">Interés</label>
+                    <select name="contactInterest"  class= "searchInput" id="contactInterest">
+                        <option value="" disabled selected>Interés</option>
+                        <option value="0">0%</option>
+                        <option value="25">25%</option>
+                        <option value="50">50%</option>
+                        <option value="75">75%</option>
+                        <option value="100">100%</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/var.js"></script>
+    <script src="./scripts/api.js"></script>
+    <script src="./scripts/functions.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
+
+
+
+

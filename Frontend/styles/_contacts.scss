@@ -1,0 +1,407 @@
+
+.contactsSection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    padding: 0 25px 0 25px;
+    border-radius: 8px;
+    // z-index: -2;
+    box-shadow: 2px 2px 8px rgb(211, 209, 209);
+}
+
+.contactsBar.moved{
+    margin-bottom: 48px;
+    transition: margin 0.2s ease-in-out;
+}
+
+.contactsTable{
+    width: 100%;
+    height: 590px;
+    background-color: white;
+    padding: 0 25px 0 25px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgb(211, 209, 209);
+    z-index: 1;
+
+}
+
+.searchBar{
+    display: flex;
+    height: 44px;
+    width: 450px;
+    border-radius: 3px;
+    border: 1px solid $blue5;
+    box-shadow: inset 2px -3px 4px $lightgray;
+}
+
+.searchdiv{
+    display: flex;
+    align-items: center;
+}
+
+
+.contactsBar-btns-div{
+    display: flex;
+}
+
+.contactsBar-btns{
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding:0 15px 0 15px;
+    height: 43px;
+    margin-right: 20px;
+    background-color: rgb(245, 245, 245);
+    font-family: $raleway;
+    font-size: 14px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px rgb(211, 209, 209);
+    cursor: pointer;
+    transition: background-color 0s
+}
+
+
+.contactsBar-btns.new{
+    width: 47px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: $blue4;
+    color: white;
+}
+
+.contactsBar-btns:hover{
+    background-color: $blue5;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px rgb(156, 156, 156);
+}
+
+.contactsBar-btns.new:hover{
+    background-color: $blue2;
+}
+
+.headerDivider{
+    width: 100%;
+    height: 1px;
+    background-color: $lightgray;
+}
+
+.contactsTable{
+    display: flex;
+    flex-direction: column;
+    font-family: $raleway;
+    font-size: 14px;
+}
+
+.tableHeader{
+    font-weight: 500;
+}
+
+.itemRow{
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.itemRow.contactHover{
+    background-color: $lightgray;
+    font-weight: 400;
+}
+
+
+.tableRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+}
+
+.tableColumn{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tableColumn img{
+    width: 40px;
+    height: 17px;
+}
+
+.column1{
+    width: 4%
+}
+
+.column8{
+    width: 6%;
+}
+
+.itemRow .column8{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.itemRow .column8:hover{
+    font-weight: 500;
+}
+
+.locationColumn{
+    width: 350px;
+}
+
+
+.interestColumn img{
+    height: 45px;
+    width: auto;
+    margin-left: 15px;
+}
+
+
+.contactsBar-btns.search{
+    margin-left: 28px;
+    background-color: $blue4;
+}
+
+.contactsBar-btns.search.hidden{
+    display: none;
+}
+
+// .searchOptions:hover{
+//     background-color: white;
+// }
+
+.searchDetail{
+    position: absolute;
+    top: 82px;
+    left: 15px;
+    width: 470px;
+    height: 315px;
+    background-color:white;
+    padding: 23px;
+    padding-left: 31px;
+    font-family: $raleway;
+    font-size: 14px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 2px 6px 6px rgb(211, 209, 209);
+    z-index: 2;
+
+}
+
+.searchDetail div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    border-bottom: 1px solid $lightgray;
+}
+
+.searchInput{
+    width: 210px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid $lightgray;
+    border-bottom: none;
+}
+
+.search img{
+    width: 25px;
+    margin: 0;
+}
+
+.searchOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -45px;
+    width: 35px;
+    height: 28px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.searchOptions img{
+    width: 14px;
+    opacity: 0.4;
+}
+
+.searchOptions:hover{
+    background-color: $lightgray;
+}
+
+.searchInput{
+    color: $shadow;
+    font-family: $raleway;
+}
+
+.searchDetail.hidden{
+    display: none;
+}
+
+.contactsSection.hidden{
+    display: none;
+}
+
+.contactsBar-btns.search:hover{
+    background-color: $blue3;
+}
+
+.indexBtns{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    margin: 0 55px 18px 0;
+}
+
+.indexContainer  {
+    color: $blue2;
+}
+
+.indexArrow{
+    width: 10px;
+    height: auto;
+    opacity: 0.7;
+}
+
+.arrowContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px rgb(211, 209, 209);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrowContainer:hover{
+    background-color:white;
+    box-shadow: 2px 2px 2px rgb(146, 146, 146);
+}
+
+.optionsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    padding-right: 6px;
+}
+
+.optionHoverBtns img{
+    width: 26px;
+    height: auto;
+}
+
+.promptBtns{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.promptBtns div{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    width: auto;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(211, 209, 209)
+}
+
+#promptCancelBtn{
+    background-color: rgba($blue4, $alpha: 0.8);
+}
+
+#promptConfirmBtn{
+    background-color: rgba($orange, $alpha: 0.8);
+}
+
+#promptCancelBtn:hover{
+    background-color:$blue4;
+}
+
+#promptConfirmBtn:hover{
+    background-color: $orange;
+}
+
+.qtySelected{
+    font-family: $raleway;
+    font-size: 14px;
+    font-family: $raleway;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 84px;
+    left: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(211, 209, 209);
+    z-index: 0;
+    height: 36px;
+    width: 220px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation: Slide 0.2s;
+}
+
+.deleteTag{
+    font-family: $raleway;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+    top: 84px;
+    right: 25px;
+    background-color: rgba($orange, $alpha: 0.3);
+    z-index: 0;
+    color: rgba($color: #740808, $alpha: 1.0);
+    font-weight: 500;
+    height: 36px;
+    width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    transition: margin 0.2s ease-in-out;
+    animation: Slide 0.2s;
+}
+
+.deleteTag img{
+    height: 18px;
+}
+
+@keyframes Slide {
+    0% {
+      margin-top: 40px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+.usersBtn.hidden{
+    display: none;
+}
+
+

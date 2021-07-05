@@ -1,0 +1,219 @@
+.contactModal{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($shadow, $alpha: 0.3);
+    z-index: 2;
+}
+
+.contactMainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1050px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 8px rgba($shadow, $alpha: 0.5);
+}
+
+.title{
+
+    height: 130px;
+    width: 100%;
+    background-color: $blue4;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 2px 2px 8px rgba($shadow, $alpha: 0.5);
+    padding: 26px;
+    color: white;
+    font-family: $raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contactDataDiv{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 990px;
+}
+.contactDataDiv.level1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin-top:70px;
+    height: 120px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid $blue4;
+    
+}
+
+.contactData{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    padding: 8px;
+    font-family: $raleway;
+    font-size: 16px;
+}
+
+.contactData input{
+    border: 1px solid $blue5;
+    margin-top: 5px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+.contactData select{
+    border: 1px solid $blue5;
+    margin-top: 5px;
+    height: 25px;
+    padding-left: 5px
+}
+
+.contactData.n2{
+    width: 200px;
+}
+
+
+.contactData span{
+    color: red;
+}
+
+.contactDataDiv.level2{
+    margin: 215px 30px 0 30px;
+    justify-content: space-between;
+}
+
+.contactDataDiv.level3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: flex-start;
+    margin-top: 155px;
+    padding: 0 292px 90px 30px;
+    justify-content: space-between;
+}
+
+.channelDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactData.n3{
+    width: 200px;
+}
+.contactModalBtns{
+    display: flex;
+    position: absolute;
+    width: auto;
+    bottom: 0;
+    right: 0;
+    margin: 0 40px 30px 0 ;
+    font-family: $raleway;
+    font-size: 16px;
+    color: white;
+}
+.contactModalBtns div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: 43px;
+    width: auto;
+    background-color: $blue3;
+    margin-left: 28px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 4px rgb(211, 209, 209);
+    cursor: pointer;
+
+}
+.newContactCompany{
+    width: 160px;
+    z-index: 2;
+}
+
+.contactModalBtns div:first-child{
+    background-color: $blue5 ;
+    color: black;
+}
+
+.contactModalBtns div:first-child:hover{
+    background-color: $blue4;
+    font-weight: 500;
+}
+
+.saveNewUser:hover{
+    background-color: $blue1;
+    font-weight: 500;
+}
+
+.createPrompt{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba($shadow, $alpha: 0.5);
+    padding: 0 20px 0 20px;
+    font-family: $raleway;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    z-index: 3;
+}
+.createPrompt img{
+    width: 150px;
+    animation: Pop 0.5s;
+    margin: 40px 0 45px 0;
+}
+
+.createPrompt p{
+    margin-bottom: 30px;
+}
+
+.companiesSugDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: auto;
+    background-color: white;
+    margin-top: 43px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid $blue5;
+    border-top: none;
+    z-index: 1;
+}
+
+.companiesSugDiv p {
+    cursor: pointer;
+    margin: 5px 0 5px 7px;
+    color: rgba($shadow, $alpha: 0.7);
+}
+
+.companiesSugDiv p:hover {
+    // margin: 3px 0 3px 5px;
+    color: $shadow;
+    font-weight: 400;
+}
+
+.companiesSugDiv p:first-child{
+    margin-top: 12px;
+}
